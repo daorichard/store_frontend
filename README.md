@@ -1,1 +1,1 @@
-# store_project
+# E-commerce app
