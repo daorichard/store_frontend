@@ -6,7 +6,7 @@ import Product from './pages/Product/Product';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 
-const Layout = () => {
+const Layout: React.FC = () => {
   return (
     <div className='classname'>
       <Navbar />
