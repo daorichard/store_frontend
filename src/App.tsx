@@ -6,6 +6,7 @@ import Product from './pages/Product/Product';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 
+// Layout component will render each page, and outlet is a child component
 const Layout: React.FC = () => {
   return (
     <div className='classname'>
@@ -16,6 +17,7 @@ const Layout: React.FC = () => {
   );
 };
 
+// Defining routes for react router dom
 const router = createBrowserRouter([
   {
     path: '/',

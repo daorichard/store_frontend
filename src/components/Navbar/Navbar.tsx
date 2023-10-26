@@ -4,11 +4,11 @@ import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { Link } from 'react-router-dom';
+import './Navbar.scss';
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-      Navbar
       <div className='wrapper'>
         <div className='left'>
           <div className='item'>
@@ -30,9 +30,31 @@ const Navbar = () => {
           </div>
         </div>
         <div className='center'>
-          <Link to='/'>STORE TITLE</Link>
+          <Link to='/'>STORE TITLE NAME</Link>
         </div>
-        <div className='right'></div>
+        <div className='right'>
+          <div className='center'>
+            <Link to='/'>Homepage</Link>
+          </div>
+          <div className='center'>
+            <Link to='/'>About</Link>
+          </div>
+          <div className='center'>
+            <Link to='/'>Contact</Link>
+          </div>
+          <div className='center'>
+            <Link to='/'>Stores</Link>
+          </div>
+          <div className='icons'>
+            <SearchIcon />
+            <PersonOutlineOutlinedIcon />
+            <FavoriteBorderOutlinedIcon />
+            <div className='cartIcon'>
+              <ShoppingCartOutlinedIcon />
+              <span>0</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
