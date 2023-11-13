@@ -33,16 +33,16 @@ const Navbar = () => {
           <Link to='/'>STORE TITLE NAME</Link>
         </div>
         <div className='right'>
-          <div className='center'>
+          <div className='item'>
             <Link to='/'>Homepage</Link>
           </div>
-          <div className='center'>
+          <div className='item'>
             <Link to='/'>About</Link>
           </div>
-          <div className='center'>
+          <div className='item'>
             <Link to='/'>Contact</Link>
           </div>
-          <div className='center'>
+          <div className='item'>
             <Link to='/'>Stores</Link>
           </div>
           <div className='icons'>
