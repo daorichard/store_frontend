@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Products from './pages/Products/Products';
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div>
+    <div id='app'>
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
