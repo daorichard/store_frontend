@@ -37,7 +37,7 @@ const Navbar = () => {
         </div>
         <div className='center'>
           <Link className='link' to='/'>
-            Lychee Boutique
+            Pangea
           </Link>
         </div>
         <div className='right'>
@@ -53,18 +53,13 @@ const Navbar = () => {
           </div>
           <div className='item'>
             <Link className='link' to='/'>
-              Contact
-            </Link>
-          </div>
-          <div className='item'>
-            <Link className='link' to='/'>
               Stores
             </Link>
           </div>
           <div className='icons'>
             <SearchIcon />
-            <PersonOutlineOutlinedIcon />
             <FavoriteBorderOutlinedIcon />
+            <PersonOutlineOutlinedIcon />
             <div className='cartIcon'>
               <WorkOutlineOutlinedIcon />
               <span>0</span>

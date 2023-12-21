@@ -1,6 +1,6 @@
 # E-commerce botique clothing app
 
-Welcome to the frontend repository for my e-commerce site. This project is built using React with TypeScript to create a modern and scalable user interface for my ecommerce platform that will be connected to stripe and a headless CMS.
+Welcome to the frontend repository for my e-commerce site. This project is built using React with TypeScript to create a modern and scalable user interface for my ecommerce platform that will be connected to stripe and a headless CMS via Strapi.
 
 ## Getting Started
 
@@ -32,3 +32,8 @@ Make sure you have the following software installed on your machine:
    ```bash
    npm run dev
    ```
+
+## Side Notes:
+
+- My favorite features that I implemented:
+-
